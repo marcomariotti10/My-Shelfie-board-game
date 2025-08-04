@@ -23,7 +23,7 @@ becomes free after your first pick).
 
 
 ## Jar Usage
-The game is splitted into two JAR files, both can be downloaded form Deliverables directory.
+The game is splitted into two JAR files, both can be downloaded form jar directory.
 one Server app instance must be running before the client can actually start playing.
 Both server and client app can run on Unix systems (Linux, macOS) or Windows system (on Powershell, cmd and WSL).
 
