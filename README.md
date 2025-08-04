@@ -1,4 +1,8 @@
-## Game
+# My Shelfie
+
+## 📘 Overview
+
+**My Shelfie** is a multiplayer board game implemented with a **client-server architecture** and rich **Java OOP design**.
 
 The objective of the game is for the players to take the item tiles from the living room (the board) and place them in their bookshelves (the library) to score points.
 Points are assigned when certain patterns of tiles are achieved in the bookshelves. The game ends when a player completely fills their bookshelf.
@@ -18,6 +22,32 @@ All the tiles you take must have at least one side free (not touching directly
 other tiles) at the beginning of your turn (i.e. you cannot take a tile that
 becomes free after your first pick).
 
+---
+
+## ✨ Features
+
+- 🎮 Real-time multiplayer gameplay with server-managed state
+- 🧱 Draw and place tiles using coordinate-based selection
+- 🗂️ Column-based personal library organization
+- 🎯 Private and common goal tracking with point scoring
+- ✅ Move validation and board refresh logic
+- 🔄 Client-server communication using a custom protocol
+- 🔌 Modular MVC architecture with clean separation of concerns
+
+---
+
+## 🗂️ Project Structure
+
+```bash
+src/
+├── client/              # GUI and client-side controllers
+├── server/              # Game logic, rules, and multiplayer server
+├── common/              # Shared models, tiles, enums, and protocol messages
+├── network/             # Message handler and connection logic
+└── utils/               # Utility classes for IO and validation
+```
+
+---
 
 ## Jar Usage
 The game is splitted into two JAR files, both can be downloaded form Deliverables directory.
@@ -91,6 +121,21 @@ Once the players have chosen the wished game size, the server will allow a maxim
 ## Disconnections
 If a player is disconnected is able to reenter tha game  he left and by reentering the lobby name in the join selection
 and his old nickname in the nickname selection.
+
+---
+
+## 🧰 Requirements
+
+- Java 11+
+- JavaFX (for GUI)
+- Maven or Gradle (for dependency and build management)
+
+---
+
+## 📄 License
+
+This project is for **academic and educational use** only.  
+Redistribution is subject to university policies.
 
 
 
