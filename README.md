@@ -1,30 +1,4 @@
-# Prova Finale Ingegneria del Software 2023
-#### This project is a digitalized version of the "My Shelfie" board game.
-
-| Functionality             |                                                        State                                                        |
-|:--------------------------|:-------------------------------------------------------------------------------------------------------------------:|
-| Basic rules               |                           ![#c5f015](https://via.placeholder.com/15/008000/000000?text=+)                           |
-| Complete rules            |                           ![#c5f015](https://via.placeholder.com/15/008000/000000?text=+)                           |
-| CLI                       |                           ![#c5f015](https://via.placeholder.com/15/008000/000000?text=+)                           |
-| Socket                    |                           ![#c5f015](https://via.placeholder.com/15/008000/000000?text=+)                           |
-| RMI                       |                           ![#c5f015](https://via.placeholder.com/15/008000/000000?text=+)                           |
-| GUI                       |                           ![#c5f015](https://via.placeholder.com/15/008000/000000?text=+)                           |
-| Multiple games            |                           ![#c5f015](https://via.placeholder.com/15/008000/000000?text=+)                           |
-| Disconnections            |                           ![#c5f015](https://via.placeholder.com/15/008000/000000?text=+)                           |
-| Persistence               |                                  ![#c5f015](https://placehold.it/15/f03c15/f03c15)                                  |
-| Chat                      |                                  ![#c5f015](https://placehold.it/15/f03c15/f03c15)                                  |
-
-
-<!--
-[![RED](https://placehold.it/15/f03c15/f03c15)](#)
-[![YELLOW](https://placehold.it/15/ffdd00/ffdd00)](#)
-[![GREEN](https://placehold.it/15/44bb44/44bb44)](#)
--->
-
-- ###  Gabriele Marra ([@GabrieleMarra](https://github.com/mgabriele00)) <br> gabriele2.marra@mail.polimi.it
-- ###  Marco Mariotti ([@MarcoMariotti](https://github.com/marcomariotti1000)) <br> marco2.mariotti@mail.polimi.it
-- ###  Francesco Foresti ([@FrancescoForesti](https://github.com/FrancescoForesti00)) <br> francesco1.foresti@mail.polimi.it
-- ###  Andrea Gollo  ([@AndreaGollo](https://github.com/GolAndrea)) <br> andrea.gollo@mail.polimi.it
+# MyShelfie board game
 
 ## Game
 
@@ -49,7 +23,7 @@ becomes free after your first pick).
 
 
 ## Jar Usage
-The game is splitted into two JAR files, both can be downloaded form Deliverables directory.
+The game is splitted into two JAR files, both can be downloaded form jar directory.
 one Server app instance must be running before the client can actually start playing.
 Both server and client app can run on Unix systems (Linux, macOS) or Windows system (on Powershell, cmd and WSL).
 
