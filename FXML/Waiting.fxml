@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.client.GUI.ScenesControllers.LoginController">
+   <center>
+      <AnchorPane fx:id="pane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="624.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pictures/Publisher_material/Display_5.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="157.0" fitWidth="407.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pictures/Publisher_material/Title_2000x618px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="375.0" layoutY="345.0" styleClass="login-panel" stylesheets="@../css/Style.css" text="Please stand by...">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <Blend mode="OVERLAY" />
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
